@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'CoursAngular';
+  title ="angular"
+  tabCollumn : string[] = []
+  createCollumn(name:string){
+    console.log('test fonction')
+    this.tabCollumn.push(name);
+  }
 }
